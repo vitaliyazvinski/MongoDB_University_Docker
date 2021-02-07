@@ -15,6 +15,5 @@ services:
     command: mongod -f /tools/lab2_1/single.cfg
     volumes:
       - ./labs_data:/tools
-    mem_limit: 1024000000
     ports:
       - "27000:27000"
